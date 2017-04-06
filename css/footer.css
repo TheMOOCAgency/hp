@@ -1,0 +1,26 @@
+#footer {
+  width: 100%;
+  height: 31px;
+}
+#footer_1 {
+  width: 100%;
+  height: 6px;
+  background-color: #e2007a;
+}
+#footer_2 {
+  width: 100%;
+  height: 31px;
+  line-height: 31px;
+  vertical-align: middle;
+  background-color: #e2007a;
+  text-align: center;
+  color: #fff;
+  font-size: 10px;
+  font-family: 'ralewayregular';
+}
+#footer_2 a {
+  color: #fff;
+  text-transform: none;
+  font-size: 10px;
+  font-family: 'ralewayregular';
+}

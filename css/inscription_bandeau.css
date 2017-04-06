@@ -1,0 +1,57 @@
+#inscription_bandeau {
+  width: 100%;
+  height: 200px;
+  background-image: url('../images/img_bandeau.png');
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+#inscription_bandeau h2,#inscription_bandeau p {
+  width: 100%;
+  color: #fff;
+  text-align:center;
+  text-transform: uppercase;
+}
+#inscription_bandeau h2 {
+  padding-top: 30px;
+  font-size: 40px;
+  font-family: 'verdanabold';
+}
+#inscription_bandeau p {
+  font-size: 18px;
+  font-family: 'verdana';
+}
+#inscription_bandeau a {
+  border: 1px solid #fff;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #fff;
+  color: #8c8e91;
+  width: 125px;
+  line-height:23px;
+  height: 23px;
+  border-radius: 5px;
+  display:inline-block;
+  font-family: 'ralewaybold';
+}
+#inscription_bandeau a:hover {
+  background-color: transparent;
+  color: #fff;
+}
+@media(max-width:425px) {
+  #inscription_bandeau {
+    background-image: url('../images/img_bandeau_mobil.png');
+  }
+  #inscription_bandeau h2 {
+    font-size: 30px;
+  }
+  #inscription_bandeau p {
+    font-size: 18px;
+  }
+  #inscription_bandeau a {
+    line-height:32px;
+    height: 32px;
+  }
+}
